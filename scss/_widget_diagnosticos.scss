@@ -1,0 +1,99 @@
+.widget-diagnosticos-1 {
+    padding:0px;
+    background: #f5f0f2;
+}
+
+.widget-diagnosticos-1 .widget-content-inner
+{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .title {
+	
+	text-align: center;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .title .title-1{
+	font-size: 34px;
+	font-style: italic;
+	line-height: 1em;
+	color: #8e5ba6;
+	padding: 0px;
+	margin: 0px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .title .title-2{
+	font-size: 34px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 1em;
+	color: #8e5ba6;
+	padding: 0px;
+	margin: 0px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-container
+{
+	display: block;
+	margin-top: 25px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico a{
+	text-decoration: none;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico .container-img img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px 40px 0px 0px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico .container-img .rectangle::before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0;	
+	left: 0;
+	display: block;
+	margin-top: -26%;
+	height: 100%;
+	width: 100%;
+	background-color: inherit;
+	/* transformaciones */
+	-webkit-transform: skewY(-6deg);
+	   -moz-transform: skewY(-6deg);
+	    -ms-transform: skewY(-6deg);
+	     -o-transform: skewY(-6deg);
+	        transform: skewY(-6deg);
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico .container-img .rectangle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	background: #00cccc;
+	position: relative;
+	z-index: 2;
+	border-radius: 0px 0px 0px 40px;
+}
+
+.widget-diagnosticos-1 .widget-content-inner .card-diagnostico .container-img .rectangle span{
+	position: absolute;
+	display: block;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: -40px;
+}
+
+
+

@@ -1,0 +1,86 @@
+.main-header .header-info-wrap {
+    background: #09B8AC
+}
+
+.main-header .header-info-wrap .header-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 7px 0
+}
+
+.main-header .header-info-wrap .header-info .header-contact {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0
+}
+
+.main-header .header-info-wrap .header-info .header-contact li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 25px
+}
+
+.main-header .header-info-wrap .header-info .header-contact li::before {
+    display: none
+}
+
+.main-header .header-info-wrap .header-info .header-contact li:last-child {
+    margin-right: 0
+}
+
+.main-header .header-info-wrap .header-info .header-contact li:nth-child(2) i {
+    transform: rotateY(180deg)
+}
+
+.main-header .header-info-wrap .header-info .header-contact li p,
+.main-header .header-info-wrap .header-info .header-contact li a,
+.main-header .header-info-wrap .header-info .header-contact li span {
+    font-size: 14px;
+    color: #fff
+}
+
+.main-header .header-info-wrap .header-info .header-contact li p i,
+.main-header .header-info-wrap .header-info .header-contact li a i,
+.main-header .header-info-wrap .header-info .header-contact li span i {
+    margin-right: 10px;
+    font-size: 14px
+}
+
+.main-header .header-info-wrap .header-info .header-contact li span {
+    margin-right: 10px
+}
+
+
+@media (max-width:991px) {
+    .main-header .header-info-wrap .header-info {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .main-header .header-info-wrap .header-info .header-contact {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        width: 100%
+    }
+    .main-header .header-info-wrap .header-info .header-contact li {
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 0px
+    }
+    .main-header .header-info-wrap .header-info .soc-widget {
+        margin-right: 20px
+    }
+}
