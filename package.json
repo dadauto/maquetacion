@@ -3,7 +3,7 @@
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "^3.3.7",
         "gulp-util": "^3.0.8",
-        "jquery": "3.3.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "node-sass": "^4.9.4"
     },
