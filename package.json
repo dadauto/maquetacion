@@ -5,7 +5,7 @@
         "gulp-util": "^3.0.8",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "node-sass": "^4.9.4"
+        "node-sass": "^4.13.1"
     },
     "devDependencies": {
         "browser-sync": "2.24.7",
